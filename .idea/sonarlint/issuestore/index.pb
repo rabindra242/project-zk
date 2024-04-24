@@ -1,0 +1,33 @@
+
+á
+WpractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/utils/Response.java,f/0/f01831af701d925142d73980345f5ea96eb1e551
+ò
+hpractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/PractiseQueryDsLcrudApplication.java,3/f/3f9d23c438ecc1b3a4f60b9c7816c549d18d4cd8
+á
+WpractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/repo/BooksRepo.java,c/9/c9c83a574c19928313ea8e6ff73adccb8503e15f
+ì
+cpractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/controller/BooksController.java,c/1/c158ccc6b08b6086bea291044eb3530540a150b7
+é
+^practiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/config/SecurityConfig.java,7/2/725b871e29764f2aed211060ab92f2e57f1676cb
+^
+.elasticcrudfrontend/src/component/BookList.tsx,4/b/4befde21a4167dd73c286c15e8ad7c0a3a4c3f6b
+_
+/elasticcrudfrontend/src/component/InputForm.tsx,0/5/0509bfdb9b00b48882b86749d42455c175e633e4
+ç
+]practiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/config/JacksonConfig.java,0/7/07fe0d52707adc73c35c57ea755ed2651216c392
+ü
+opractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/config/ElasticApplicationConfiguration.java,c/6/c6c379be6640fe780d0a076d6c47ca94dfea2e40
+O
+elasticcrudfrontend/src/App.tsx,6/0/6009f6d45d03265c0ced2f84f43b7070238f2832
+O
+elasticcrudfrontend/src/App.css,c/d/cd675d6283cf726bf5a740dda8a6d688926ba97f
+^
+.elasticcrudfrontend/src/component/MainFile.tsx,5/d/5db434d235241591a248590701c3bc0320fdb065
+í
+bpractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/config/Outh2SucessHandler.java,3/c/3cb7fa0e869be8aaf6c139d2b8ad06834cbfb1ba
+ê
+`practiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/service/BooksServieImpl.java,a/e/ae27c2378b0e303ee78c0e8ba8870155132407f7
+î
+dpractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/dto/request/BooksRequestDto.java,3/a/3a6be0dfa6250690490bad90ad9db94a522fb4d5
+ñ
+fpractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/dto/response/BooksResponseDto.java,8/a/8acc80938cafa494dfb70a7a82e2ba645840ace2

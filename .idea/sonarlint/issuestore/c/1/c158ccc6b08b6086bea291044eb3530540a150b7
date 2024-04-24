@@ -1,0 +1,13 @@
+
+b
+java:S1452'"&Remove usage of generic wildcard type.(’×¿øJ$c7510907-b2dc-41c5-a88b-9604520063f2
+m
+java:S1128"*Remove this unused import 'lombok.Getter'.(ùÒµÙ8ã½Ùôğ1J$068528d0-ee68-4e3f-ad69-3f704fcec348
+”
+java:S1128"LRemove this unused import 'org.apache.http.impl.nio.reactor.ExceptionEvent'.(ş¥Ìøÿÿÿÿ8ä½Ùôğ1J$6e6ba997-d73f-4b40-9c5f-3d1657461f40
+}
+java:S1128":Remove this unused import 'org.apache.http.protocol.HTTP'.(×…Æ‹8æ½Ùôğ1J$46c23374-6010-4b74-a3bc-b7a85db6421e
+
+java:S1128	"JRemove this unused import 'org.example.practisequerydslcrud.entity.Books'.(§Òô8è½Ùôğ1J$c9395bfa-a128-4594-906a-e1613a8562b4
+˜
+java:S1128"URemove this unused import 'org.example.practisequerydslcrud.service.BooksServieImpl'.(ÃÏ­8é½Ùôğ1J$8fef10d0-9a1f-450f-be87-9c2d40441ddd

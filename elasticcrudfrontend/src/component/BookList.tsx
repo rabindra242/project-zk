@@ -1,5 +1,4 @@
 import { useState } from "react";
-import axios from "axios";
 
 function BookList() {
     const [name, setName] = useState("");
@@ -9,13 +8,23 @@ function BookList() {
 
     const handleSearch = async () => {
         try {
-            const response = await axios.get("http://localhost:8080/api/books/get-by-name-author", {
-                params: {
-                    name: name,
-                    author: author
-                }
+            const response = await fetch(`http://localhost:8080/api/books/get-by-name-author?name=${name}&author=${author}`, {
+                redirect: "follow"
             });
-            setBooks(response.data.response);
+
+            if (!response.ok) {
+                throw new Error('Failed to fetch books');
+            }
+
+            // Check if the response is redirected
+            if (response.redirected) {
+                // Redirect to the URL provided in the response
+                window.location.href = response.url;
+                return;
+            }
+
+            const data = await response.json();
+            setBooks(data.response);
         } catch (error) {
             setError("Error fetching books: " + error.message);
         }
@@ -32,7 +41,7 @@ function BookList() {
             {error && <div>{error}</div>}
             <h1>Books List</h1>
             <ul>
-                {books.map(book => (
+                {books?.map(book => (
                     <li key={book.id}>
                         <div>Name: {book.name}</div>
                         <div>Author: {book.author}</div>

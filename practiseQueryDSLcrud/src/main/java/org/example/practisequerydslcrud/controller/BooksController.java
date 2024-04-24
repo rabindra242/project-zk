@@ -19,7 +19,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/books")
 @RequiredArgsConstructor
-@CrossOrigin
+@CrossOrigin(methods = RequestMethod.GET)
 public class BooksController {
 
     private final BooksService booksService;
