@@ -1,9 +1,7 @@
 
-h
-java:S6204("RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Ó£ŠÏ
-^
-java:S1128"HRemove this unused import 'com.fasterxml.jackson.databind.ObjectMapper'.(´‘¨™
-Q
-java:S1128"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ
-F
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+ƒ	java:S125+"<This block of commented-out lines of code should be removed.(Â™†úÿÿÿÿ8²Ã¥¨ñ1J$95b8fa7e-1b7b-4515-a105-050faa5d9e1e
+•
+java:S62044"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8´Ã¥¨ñ1J$d12deaed-00a8-4520-92cb-ea7211143e5a
+™
+java:S16123"QReplace this lambda with method reference 'responseMapper::mapToBookResponseDto'.(îãšçÿÿÿÿÿ8¶Ã¥¨ñ1J$a1e294c3-f6db-4fd7-b1f9-5d0ad11b3637
+~	java:S1256"<This block of commented-out lines of code should be removed.(²í—Õ8·Ã¥¨ñ1J$f576978e-38ee-4d8b-b746-117559476097

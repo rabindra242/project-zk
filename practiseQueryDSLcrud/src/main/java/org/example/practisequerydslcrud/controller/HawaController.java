@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HawaController {
     @GetMapping
     public String get(){
-        return "Hello Mf";
+        return "Hello Moo";
     }
 }
