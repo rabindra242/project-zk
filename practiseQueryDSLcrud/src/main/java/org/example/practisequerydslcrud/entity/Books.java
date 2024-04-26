@@ -8,7 +8,6 @@ import org.springframework.data.elasticsearch.annotations.Document;
 
 @Data
 @Document(indexName = "rajbabu")
-@Builder
 public class Books {
     @Id
     private String id;
@@ -16,4 +15,5 @@ public class Books {
     private String author;
     private String publicationYear;
     private Float price;
+    private String booksImageUrl;
 }

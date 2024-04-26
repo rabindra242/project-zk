@@ -1,18 +1,19 @@
 package org.example.practisequerydslcrud.service;
 
 import org.example.practisequerydslcrud.dto.request.BooksRequestDto;
+import org.example.practisequerydslcrud.dto.response.BookResponseYearDTO;
 import org.example.practisequerydslcrud.dto.response.BooksResponseDto;
-import org.example.practisequerydslcrud.utils.Response;
+import org.springframework.data.elasticsearch.core.SearchHits;
 
 import java.util.List;
 
 public interface BooksService {
-//    List<Books> getAllBooks();
-//    List<Books> findAllBooksByAge(Integer age);
-//
-//    List<Books> findBooksByAuthor();
     void save(BooksRequestDto booksRequestDto);
 
     List<BooksResponseDto> getBooksByNameAndAuthor(String name, String author);
+
+    List<BooksResponseDto> getBooksByPublicationYear(String year);
+
+    List<BookResponseYearDTO> getBooksPublicationYearByNameAndAuthor(String name, String Author);
 
 }

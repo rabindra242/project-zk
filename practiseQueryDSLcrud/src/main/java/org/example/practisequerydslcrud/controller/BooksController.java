@@ -10,6 +10,8 @@ import org.example.practisequerydslcrud.entity.Books;
 import org.example.practisequerydslcrud.service.BooksService;
 import org.example.practisequerydslcrud.service.BooksServieImpl;
 import org.example.practisequerydslcrud.utils.Response;
+import org.springframework.data.elasticsearch.core.SearchHit;
+import org.springframework.data.elasticsearch.core.SearchHits;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -43,6 +45,17 @@ public class BooksController {
         response.setResponse(booksService.getBooksByNameAndAuthor(name,author));
         return new ResponseEntity<>(response,HttpStatus.OK);
     }
+
+    @GetMapping("/get-books-by-publicationYear")
+    public ResponseEntity<Response<?>> getBooksByPublicationYear(@RequestParam("year") String year){
+
+        Response<List<BooksResponseDto>> response = new Response<>();
+        response.setResponse(booksService.getBooksByPublicationYear(year));
+        return new ResponseEntity<>(response,HttpStatus.OK);
+    }
+
+
+
 
 
 

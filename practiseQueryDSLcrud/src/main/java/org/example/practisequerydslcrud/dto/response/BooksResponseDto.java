@@ -1,15 +1,11 @@
 package org.example.practisequerydslcrud.dto.response;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.Builder;
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-public class BooksResponseDto {
-    private String id;
-    private String name;
-    private String author;
-    private String price;
+import java.io.Serializable;
+
+@Builder
+public record BooksResponseDto(String id, String name, String author, Float price) implements Serializable {
 }
+
+
