@@ -8,7 +8,6 @@ import org.springframework.data.elasticsearch.annotations.Document;
 
 @Data
 @Document(indexName = "rajbabu")
-@Builder
 public class Books {
     @Id
     private String id;
