@@ -6,6 +6,4 @@ import lombok.Builder;
 @Builder
 public record BooksRequestDto(
         String name,String author,String publicationYear,Float price){
-
-
 }

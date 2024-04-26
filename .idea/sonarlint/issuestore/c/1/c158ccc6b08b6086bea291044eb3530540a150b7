@@ -1,13 +1,19 @@
 
-b
-java:S1452'"&Remove usage of generic wildcard type.(’×¿øJ$35e58690-8666-4bd5-b59c-a977b3318d66
-m
-java:S1128"*Remove this unused import 'lombok.Getter'.(ùÒµÙ8ã½Ùôğ1J$84bc7dba-9926-48bd-90e3-e5f3f7559c16
-”
-java:S1128"LRemove this unused import 'org.apache.http.impl.nio.reactor.ExceptionEvent'.(ş¥Ìøÿÿÿÿ8ä½Ùôğ1J$1a6f5d53-a5a6-4cd0-9962-bc244462a777
-}
-java:S1128":Remove this unused import 'org.apache.http.protocol.HTTP'.(×…Æ‹8æ½Ùôğ1J$2c1dfd61-55c6-4cf1-8b2c-adb6df795307
-
-java:S1128	"JRemove this unused import 'org.example.practisequerydslcrud.entity.Books'.(§Òô8è½Ùôğ1J$8b1cb2c2-b6e7-4c2d-9727-d58fa33c696c
-˜
-java:S1128"URemove this unused import 'org.example.practisequerydslcrud.service.BooksServieImpl'.(ÃÏ­8é½Ùôğ1J$d88a2228-a396-4ca5-8345-fb395d698439
+i
+java:S1452)"&Remove usage of generic wildcard type.(’×¿ø8èŞñÆñ1J$9e65b012-56cb-482a-b4cd-2ddeb86cd5e7
+h
+java:S14522"&Remove usage of generic wildcard type.(úşß&8ëŞñÆñ1J$7ca5760e-4ce4-4bc9-8d4e-c41e1bcae8fc
+G
+java:S1128"*Remove this unused import 'lombok.Getter'.(ùÒµÙ8ùáÅËñ1
+n
+java:S1128"LRemove this unused import 'org.apache.http.impl.nio.reactor.ExceptionEvent'.(ş¥Ìøÿÿÿÿ8ùáÅËñ1
+W
+java:S1128":Remove this unused import 'org.apache.http.protocol.HTTP'.(×…Æ‹8úáÅËñ1
+g
+java:S1128	"JRemove this unused import 'org.example.practisequerydslcrud.entity.Books'.(§Òô8úáÅËñ1
+r
+java:S1128"URemove this unused import 'org.example.practisequerydslcrud.service.BooksServieImpl'.(ÃÏ­8úáÅËñ1
+o
+java:S1128"RRemove this unused import 'org.springframework.data.elasticsearch.core.SearchHit'.(ıˆÇò8ûáÅËñ1
+p
+java:S1128"SRemove this unused import 'org.springframework.data.elasticsearch.core.SearchHits'.(ó¶úÒ8ûáÅËñ1

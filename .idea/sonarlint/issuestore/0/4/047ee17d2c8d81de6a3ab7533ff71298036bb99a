@@ -1,6 +1,4 @@
 
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(ˆ»˜Óıÿÿÿÿ8êÅ½¦ñ1J$1190dba1-51d0-496c-9c1f-5b0deb3ac5d7
-
-java:S1128"JRemove this unused import 'org.example.practisequerydslcrud.entity.Books'.(§Òô8ìÅ½¦ñ1J$6025de3d-492b-4b55-a0c6-ad08ff39d5d1
-”
-java:S1128"LRemove this unused import 'org.example.practisequerydslcrud.utils.Response'.(Âõ××ûÿÿÿÿ8²¼¥ñ1J$f80732e9-7476-460e-b49d-7bce6818c78e
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£À³Œıÿÿÿÿ8µÓ’Ìñ1J$b757b3b6-a0c0-439b-87c7-03ccea47457f
+p
+java:S1128"SRemove this unused import 'org.springframework.data.elasticsearch.core.SearchHits'.(ó¶úÒ8³„ÌÏñ1

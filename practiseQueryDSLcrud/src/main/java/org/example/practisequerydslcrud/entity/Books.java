@@ -16,4 +16,5 @@ public class Books {
     private String author;
     private String publicationYear;
     private Float price;
+    private String booksImageUrl;
 }

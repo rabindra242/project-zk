@@ -13,8 +13,6 @@ cpractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/controller/
 .elasticcrudfrontend/src/component/BookList.tsx,4/b/4befde21a4167dd73c286c15e8ad7c0a3a4c3f6b
 _
 /elasticcrudfrontend/src/component/InputForm.tsx,0/5/0509bfdb9b00b48882b86749d42455c175e633e4
-ç
-]practiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/config/JacksonConfig.java,0/7/07fe0d52707adc73c35c57ea755ed2651216c392
 ü
 opractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/config/ElasticApplicationConfiguration.java,c/6/c6c379be6640fe780d0a076d6c47ca94dfea2e40
 O
@@ -51,3 +49,7 @@ L
 practiseQueryDSLcrud/gradlew,3/0/3062eb14abcc6438bbd9b10f10dd0b5fe0bdba1c
 í
 bpractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/controller/HawaController.java,3/f/3f1a9fb00697a00cfbe20872a0959536e604728f
+ö
+jpractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/config/ElasticSearchConfiguration.java,b/5/b5363bbcde0ac79acc71cb4fea3250a36564c953
+ô
+ipractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/dto/response/BookResponseYearDTO.java,b/9/b9103f201c7276b35327be105da5e848174bc406

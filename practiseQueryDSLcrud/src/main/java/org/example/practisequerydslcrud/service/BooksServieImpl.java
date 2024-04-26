@@ -1,23 +1,22 @@
 package org.example.practisequerydslcrud.service;
 
+import co.elastic.clients.elasticsearch._types.query_dsl.BoolQuery;
 import co.elastic.clients.elasticsearch._types.query_dsl.QueryBuilders;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.example.practisequerydslcrud.dto.request.BooksRequestDto;
+import org.example.practisequerydslcrud.dto.response.BookResponseYearDTO;
 import org.example.practisequerydslcrud.dto.response.BooksResponseDto;
 import org.example.practisequerydslcrud.entity.Books;
 import org.example.practisequerydslcrud.exception.custome.NameIsEmptyException;
 import org.example.practisequerydslcrud.mapper.ResponseMapper;
 import org.example.practisequerydslcrud.repo.BooksRepo;
 import org.modelmapper.ModelMapper;
-import org.springframework.data.elasticsearch.annotations.Query;
 import org.springframework.data.elasticsearch.client.elc.NativeQuery;
-import org.springframework.data.elasticsearch.client.elc.NativeQueryBuilder;
 import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
+import org.springframework.data.elasticsearch.core.SearchHits;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
+import java.awt.print.Book;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -31,17 +30,17 @@ public class BooksServieImpl implements BooksService {
 
     @Override
     public void save(BooksRequestDto booksRequestDto) {
-        if (booksRequestDto.name().isEmpty()){
+        if (booksRequestDto.name().isEmpty()) {
             throw new NameIsEmptyException("NAME_NOT_SENDING");
         }
-        Books books =responseMapper.mapToBooksFromBookResponseDto(booksRequestDto);
+        Books books = responseMapper.mapToBooksFromBookResponseDto(booksRequestDto);
 //        Books.builder()
 //                .name(booksRequestDto.name())
 //                .author(booksRequestDto.author())
 //                .price(booksRequestDto.price())
 //                .publicationYear(booksRequestDto.publicationYear())
 //                .build();
-         booksRepo.save(books);
+        booksRepo.save(books);
     }
 
     @Override
@@ -61,4 +60,27 @@ public class BooksServieImpl implements BooksService {
 //                .collect(Collectors.toList());
 //    }
     }
+
+    @Override
+    public List<BooksResponseDto> getBooksByPublicationYear(String year) {
+        NativeQuery query = NativeQuery.builder()
+                .withQuery(q -> q.match(m -> m.field("publicationYear").query(year)))
+                .build();
+
+        SearchHits<Books> searchHits = elasticsearchOperations.search(query, Books.class);
+        return searchHits.getSearchHits().stream()
+                .map(s -> responseMapper.mapToBookResponseDto(s.getContent()))
+                .toList();
+
+    }
+
+    @Override
+    public List<BookResponseYearDTO> getBooksPublicationYearByNameAndAuthor(String name, String author) {
+
+
+
+        return null;
+    }
 }
+
+
