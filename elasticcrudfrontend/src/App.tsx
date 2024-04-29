@@ -1,23 +1,42 @@
-import {useEffect, useState} from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import MainFile from "./component/MainFile.tsx";
-import InputForm from "./component/InputForm.tsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Navbar from "./component/Navbar.tsx";
+import LoginForm from "./component/LoginForm.tsx";
+import BookList from "./component/BookList.tsx";
+
+// import LoginForm from "./component/LoginForm.tsx";
+//
+// import Footer from "./component/Footer.tsx";
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  // useEffect(()=>{
-  //   axios.get("https://localhost:8080/login")
-  // },[])
+  // return (
+  //   <>
+  //    <LoginForm/>
+  //       <Footer/>
+  //   </>
+  // )
 
-  return (
-    <>
-      <MainFile/>
-        <InputForm/>
-    </>
-  )
+    return(
+
+    <BrowserRouter>
+
+        <div className="App">
+            <Navbar/>
+        </div>
+        <div className="content">
+            <Routes>
+                <Route path="/" element={<LoginForm/>}/>
+                <Route path="/login" element={<LoginForm/>}/>
+                <Route path="/book-list" element={<BookList/>}/>
+
+            </Routes>
+        </div>
+    </BrowserRouter>
+    );
 }
 
 export default App
