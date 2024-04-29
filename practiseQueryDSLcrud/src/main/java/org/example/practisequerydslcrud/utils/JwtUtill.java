@@ -19,7 +19,7 @@ import java.util.function.Function;
 public class JwtUtill {
 
     private static final long EXPIRATION_TIME = 60 * 60 * 24*100;
-    private SecretKey Key;
+    private  SecretKey Key;
 
 
     public JwtUtill() {
@@ -58,6 +58,15 @@ public class JwtUtill {
                         .build()
                         .parseSignedClaims(token).getPayload()
         );
+    }
+
+    public boolean isTokenValid(String token, UserDetails userDetails) {
+        final String username = extractUsername(token);
+        return (username.equals(userDetails.getUsername())&&!isTokenExpired(token));
+    }
+
+    public boolean isTokenExpired(String token) {
+        return extractClaims(token,Claims::getExpiration).before(new Date());
     }
 
 
