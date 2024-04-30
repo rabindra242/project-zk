@@ -1,15 +1,15 @@
 
-ƒ	java:S125*"<This block of commented-out lines of code should be removed.(Â™†úÿÿÿÿ8äŞŸÍñ1J$85ff8729-3994-4cf9-b07c-be071ce383a0
+ƒ	java:S125*"<This block of commented-out lines of code should be removed.(Â™†úÿÿÿÿ8äŞŸÍñ1J$21c1c51b-f096-4647-9bf7-9311fc6489ef
 •
-java:S62043"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8çŞŸÍñ1J$b76b5cae-3695-4b9c-ad02-1e7aa7bcbdee
+java:S62043"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8çŞŸÍñ1J$627af758-3008-40ff-b315-7a5a03815d3a
 ™
-java:S16122"QReplace this lambda with method reference 'responseMapper::mapToBookResponseDto'.(îãšçÿÿÿÿÿ8èŞŸÍñ1J$8ca4980a-98f9-4c18-a4ff-c1859ba50052
-~	java:S1255"<This block of commented-out lines of code should be removed.(²í—Õ8éŞŸÍñ1J$b0e3cb16-87b0-448c-8f34-d37279124a5f
+java:S16122"QReplace this lambda with method reference 'responseMapper::mapToBookResponseDto'.(îãšçÿÿÿÿÿ8èŞŸÍñ1J$3899b17d-4272-43f9-a0c9-b4bf6dafbd66
+~	java:S1255"<This block of commented-out lines of code should be removed.(²í—Õ8éŞŸÍñ1J$8f250a8e-1b0f-4630-b9bf-c38f7db0016c
 n
-java:S1168R"+Return an empty collection instead of null.(¥¹ï8ÃÍÖÎñ1J$101fd910-4deb-4ae9-8113-4cfa5efe6c58
+java:S1168Q"+Return an empty collection instead of null.(¥¹ï8ÃÍÖÎñ1J$81f09de9-10e8-4b7d-a80d-126473662b69
  
-java:S1128"XRemove this unused import 'co.elastic.clients.elasticsearch._types.query_dsl.BoolQuery'.(˜¥áºøÿÿÿÿ8ÄÍÖÎñ1J$b060e55a-6101-4f1c-a7fd-22daa443096d
+java:S1128"XRemove this unused import 'co.elastic.clients.elasticsearch._types.query_dsl.BoolQuery'.(˜¥áºøÿÿÿÿ8ÄÍÖÎñ1J$4bc06137-5580-46e3-a086-300590ad0f59
 ¤
-java:S1128"\Remove this unused import 'co.elastic.clients.elasticsearch._types.query_dsl.QueryBuilders'.(¾˜–Øüÿÿÿÿ8ÄÍÖÎñ1J$f117e43c-2aaa-4594-827e-97bc32dcca7a
+java:S1128"\Remove this unused import 'co.elastic.clients.elasticsearch._types.query_dsl.QueryBuilders'.(¾˜–Øüÿÿÿÿ8ÄÍÖÎñ1J$8b7d47f5-8e66-49bd-81ad-4005092e9be2
 x
-java:S1128"0Remove this unused import 'java.awt.print.Book'.(ÕÓÄßúÿÿÿÿ8ÅÍÖÎñ1J$d3bab5ea-51f2-46c2-b0d4-4ea7e7e36e93
+java:S1128"0Remove this unused import 'java.awt.print.Book'.(ÕÓÄßúÿÿÿÿ8ÅÍÖÎñ1J$3650eb71-868d-45ee-b185-d69df92c440f

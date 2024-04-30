@@ -25,7 +25,6 @@ public class UserManageMentService {
     private final AuthenticationManager authenticationManager;
     private final JwtUtill jwtUtill;
     private final PasswordEncoder passwordEncoder;
-
     private final ModelMapper modelMapper;
 
     public ReqRes registerUser(ReqRes reqRes) {

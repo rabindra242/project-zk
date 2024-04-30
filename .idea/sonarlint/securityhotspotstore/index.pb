@@ -85,3 +85,7 @@ dpractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/mapper/User
 bpractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/service/ElasticSearchImpl.java,b/3/b3ff3bd2a6ab8db762f232a3e35a32a9d8f9e01a
 ”
 dpractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/controller/SearchController.java,7/5/7516292cba98e26ffc77d16c89ea67d670387f24
+”
+dpractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/service/PractiseServiceImpl.java,4/1/411d7a026327b5ec1f4111693bcc8b0e6b7f2c30
+–
+fpractiseQueryDSLcrud/src/main/java/org/example/practisequerydslcrud/controller/PractiseController.java,4/9/4981824fac386abfc76ee4a70288b3cee5b96f8d
