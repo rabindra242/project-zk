@@ -66,7 +66,6 @@ public class BooksServieImpl implements BooksService {
         NativeQuery query = NativeQuery.builder()
                 .withQuery(q -> q.match(m -> m.field("publicationYear").query(year)))
                 .build();
-
         SearchHits<Books> searchHits = elasticsearchOperations.search(query, Books.class);
         return searchHits.getSearchHits().stream()
                 .map(s -> responseMapper.mapToBookResponseDto(s.getContent()))

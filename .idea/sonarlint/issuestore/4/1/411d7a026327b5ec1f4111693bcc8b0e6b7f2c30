@@ -1,0 +1,13 @@
+
+d
+java:S1192"GDefine a constant instead of duplicating this literal "author" 3 times.(ˆ¹à8”³óò1
+o
+java:S6204%"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8´³óò1
+X	java:S125)"<This block of commented-out lines of code should be removed.(‘Üã«8¶³óò1
+o
+java:S62046"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8¸³óò1
+o
+java:S6204C"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8½³óò1
+o
+java:S6204P"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8Â³óò1
+]	java:S125S"<This block of commented-out lines of code should be removed.(ıÚ¸Îıÿÿÿÿ8Ã³óò1

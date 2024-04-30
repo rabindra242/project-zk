@@ -1,19 +1,19 @@
 
 i
-java:S1452)"&Remove usage of generic wildcard type.(’×¿ø8èŞñÆñ1J$9e65b012-56cb-482a-b4cd-2ddeb86cd5e7
+java:S1452)"&Remove usage of generic wildcard type.(’×¿ø8èŞñÆñ1J$2606feb1-50aa-4967-9a72-ec42db1ea929
 h
-java:S14522"&Remove usage of generic wildcard type.(úşß&8ëŞñÆñ1J$7ca5760e-4ce4-4bc9-8d4e-c41e1bcae8fc
-G
-java:S1128"*Remove this unused import 'lombok.Getter'.(ùÒµÙ8ùáÅËñ1
-n
-java:S1128"LRemove this unused import 'org.apache.http.impl.nio.reactor.ExceptionEvent'.(ş¥Ìøÿÿÿÿ8ùáÅËñ1
-W
-java:S1128":Remove this unused import 'org.apache.http.protocol.HTTP'.(×…Æ‹8úáÅËñ1
-g
-java:S1128	"JRemove this unused import 'org.example.practisequerydslcrud.entity.Books'.(§Òô8úáÅËñ1
-r
-java:S1128"URemove this unused import 'org.example.practisequerydslcrud.service.BooksServieImpl'.(ÃÏ­8úáÅËñ1
-o
-java:S1128"RRemove this unused import 'org.springframework.data.elasticsearch.core.SearchHit'.(ıˆÇò8ûáÅËñ1
-p
-java:S1128"SRemove this unused import 'org.springframework.data.elasticsearch.core.SearchHits'.(ó¶úÒ8ûáÅËñ1
+java:S14522"&Remove usage of generic wildcard type.(úşß&8ëŞñÆñ1J$20930579-d1d7-409d-b8b7-caa1419a7583
+m
+java:S1128"*Remove this unused import 'lombok.Getter'.(ùÒµÙ8ùáÅËñ1J$7deb2e17-b06f-4121-a111-4a81369c8daf
+”
+java:S1128"LRemove this unused import 'org.apache.http.impl.nio.reactor.ExceptionEvent'.(ş¥Ìøÿÿÿÿ8ùáÅËñ1J$5fd75d18-812e-4810-8587-416b35db2bd8
+}
+java:S1128":Remove this unused import 'org.apache.http.protocol.HTTP'.(×…Æ‹8úáÅËñ1J$3622d6a7-fffa-414a-9210-f9efb96c070d
+
+java:S1128	"JRemove this unused import 'org.example.practisequerydslcrud.entity.Books'.(§Òô8úáÅËñ1J$0fd13259-2ab7-4f28-985b-10e44d02dda7
+˜
+java:S1128"URemove this unused import 'org.example.practisequerydslcrud.service.BooksServieImpl'.(ÃÏ­8úáÅËñ1J$5b6ed978-c7c9-4f01-b728-97b50f3c2559
+•
+java:S1128"RRemove this unused import 'org.springframework.data.elasticsearch.core.SearchHit'.(ıˆÇò8ûáÅËñ1J$2cfbb69d-10c4-4e5f-9f79-bc3a97d50786
+–
+java:S1128"SRemove this unused import 'org.springframework.data.elasticsearch.core.SearchHits'.(ó¶úÒ8ûáÅËñ1J$183bec41-5265-4d1e-aba5-e8d67d9ac624

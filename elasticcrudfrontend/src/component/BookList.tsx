@@ -1,14 +1,24 @@
-import { useState } from "react";
+import React, { useState, useEffect } from 'react';
 
-function BookList() {
+function BookList(props) {
     const [name, setName] = useState("");
     const [author, setAuthor] = useState("");
     const [books, setBooks] = useState([]);
     const [error, setError] = useState(null);
 
-    const handleSearch = async () => {
+    useEffect(() => {
+        // Fetch books data using token from localStorage
+        fetchBooks();
+    }, []);
+
+    const fetchBooks = async () => {
         try {
+            const token = localStorage.getItem('token'); // Retrieve the token from localStorage
+
             const response = await fetch(`http://localhost:8080/api/books/get-by-name-author?name=${name}&author=${author}`, {
+                headers: {
+                    Authorization: `Bearer ${token}` // Include the token in the Authorization header
+                },
                 redirect: "follow"
             });
 
@@ -36,7 +46,7 @@ function BookList() {
             <div>
                 <input type="text" placeholder="Enter book name" value={name} onChange={(e) => setName(e.target.value)} />
                 <input type="text" placeholder="Enter author name" value={author} onChange={(e) => setAuthor(e.target.value)} />
-                <button onClick={handleSearch}>Search</button>
+                <button onClick={fetchBooks}>Search</button>
             </div>
             {error && <div>{error}</div>}
             <h1>Books List</h1>
@@ -46,7 +56,7 @@ function BookList() {
                         <div>Name: {book.name}</div>
                         <div>Author: {book.author}</div>
                         <div>ID: {book.id}</div>
-                        <div>Price:{book.price}</div>
+                        <div>Price: {book.price}</div>
                     </li>
                 ))}
             </ul>

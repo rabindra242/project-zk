@@ -8,6 +8,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
 
 @Data
 @Document(indexName = "rajbabu")
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Books {
     @Id
     private String id;
